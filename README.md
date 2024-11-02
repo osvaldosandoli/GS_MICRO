@@ -14,18 +14,18 @@
   </br>
 <h2>Auxiliar: Métodos, URLs, JSON</h2>
 
-//Método responsável por realizar a operação POST.
+-  Método responsável por realizar a operação POST:   </br>
 https://localhost:7282/api/Api/custom/post
 
-//Método responsável pore realizar buscas de todos os dados gravados
+-  Método responsável pore realizar buscas de todos os dados gravados:   </br>
 https://localhost:7282/api/Api/custom/getAll
 
-//Método responsável pore realizar buscas individuais dos dados gravados
+-  Método responsável pore realizar buscas individuais dos dados gravados:   </br>
 https://localhost:7282/api/Api/2
 
-//URL onde é possível consultar os Certificados Gerados.
+-  URL onde é possível consultar os Certificados Gerados:   </br>
 https://localhost:7282/certificado/layout/1
-
+  </br>
 JSON [POST]  </br>
 {  </br>
   "nome": "Carlos Alberto",  </br>
