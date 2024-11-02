@@ -1,13 +1,10 @@
 ﻿using Gerador_De_Certificados.Database;
 using Gerador_De_Certificados.Models;
-using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Text.Json;
-using System.Text;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using RabbitMQ.Client;
-using static Gerador_De_Certificados.Controllers.ApiController;
-
 
 namespace Gerador_De_Certificados.Controllers
 {
@@ -15,7 +12,6 @@ namespace Gerador_De_Certificados.Controllers
     [ApiController]
     public class ApiController : ControllerBase
     {
-
         private readonly ApplicationDbContext _context;
         private readonly RabbitMqSender _rabbitMqSender;
 
@@ -25,7 +21,7 @@ namespace Gerador_De_Certificados.Controllers
             _rabbitMqSender = rabbitMqSender;
         }
 
-        [HttpPost]
+        [HttpPost("custom/post")]
         public async Task<IActionResult> CreateCertificado(Certificado certificado)
         {
             _context.Certificados.Add(certificado);
@@ -37,8 +33,7 @@ namespace Gerador_De_Certificados.Controllers
             return CreatedAtAction(nameof(GetCertificado), new { id = certificado.IdCertificado }, certificado);
         }
 
-
-        [HttpGet]
+        [HttpGet("custom/getAll")]
         public async Task<ActionResult<IEnumerable<Certificado>>> GetCertificado()
         {
             return await _context.Certificados.ToListAsync();
@@ -47,49 +42,12 @@ namespace Gerador_De_Certificados.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Certificado>> GetCertificado(int id)
         {
-            var produto = await _context.Certificados.FindAsync(id);
+            var certificado = await _context.Certificados.FindAsync(id);
 
-            if (produto == null)
+            if (certificado == null)
                 return NotFound();
 
-            return produto;
-        }
-
-        public class RabbitMqSender
-        {
-            private const string QueueName = "diplomasQueue";
-            private const string RabbitMqUri = "amqp://rabbitmq";
-
-            public async Task SendToQueueAsync(object message)
-            {
-                try
-                {
-                    var factory = new ConnectionFactory() { Uri = new Uri(RabbitMqUri) };
-                    using var connection = factory.CreateConnection();
-                    using var channel = connection.CreateModel();
-
-                    channel.QueueDeclare(queue: QueueName,
-                                         durable: true,
-                                         exclusive: false,
-                                         autoDelete: false,
-                                         arguments: null);
-
-                    var messageBody = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(message));
-                    var properties = channel.CreateBasicProperties();
-                    properties.Persistent = true;
-
-                    channel.BasicPublish(exchange: "",
-                                         routingKey: QueueName,
-                                         basicProperties: properties,
-                                         body: messageBody);
-
-                    Console.WriteLine("Mensagem enviada para fila: " + JsonSerializer.Serialize(message));
-                }
-                catch (Exception ex)
-                {
-                    Console.Error.WriteLine("Erro ao enviar mensagem para fila: " + ex.Message);
-                }
-            }
+            return certificado;
         }
     }
 }

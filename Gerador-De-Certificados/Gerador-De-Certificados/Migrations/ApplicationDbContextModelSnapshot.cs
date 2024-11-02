@@ -45,11 +45,11 @@ namespace Gerador_De_Certificados.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DataConclusao")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("DataConclusao")
+                        .HasColumnType("date");
 
-                    b.Property<DateTime>("DataEmissao")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("DataEmissao")
+                        .HasColumnType("date");
 
                     b.Property<DateOnly>("DataNascimento")
                         .HasColumnType("date");
@@ -63,6 +63,10 @@ namespace Gerador_De_Certificados.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nacionalidade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
