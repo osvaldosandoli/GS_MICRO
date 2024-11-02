@@ -2,13 +2,13 @@
 </br>
 
 <h2>Lista de dependencias que precisam ser criadas localmente:</h2>
-  - dotnet add package DinkToPdf
-  - dotnet add package Microsoft.EntityFrameworkCore
-  - dotnet add package Microsoft.EntityFrameworkCore.Design
-  - dotnet add package Microsoft.EntityFrameworkCore.SqlServer
-  - dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
-  - dotnet add package RabbitMQ.Client
-  - dotnet add package Swashbuckle.AspNetCore
+  - dotnet add package DinkToPdf</br>
+  - dotnet add package Microsoft.EntityFrameworkCore</br>
+  - dotnet add package Microsoft.EntityFrameworkCore.Design</br>
+  - dotnet add package Microsoft.EntityFrameworkCore.SqlServer</br>
+  - dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design</br>
+  - dotnet add package RabbitMQ.Client</br>
+  - dotnet add package Swashbuckle.AspNetCore</br>
   - dotnet add package System.Text.Json
 
   </br>
