@@ -26,7 +26,7 @@ https://localhost:7282/api/Api/2
 //URL onde é possível consultar os Certificados Gerados.
 https://localhost:7282/certificado/layout/1
 
-JSON [POST]
+JSON [POST]  </br>
 {  </br>
   "nome": "Carlos Alberto",  </br>
   "nacionalidade": "Malasio",  </br>
