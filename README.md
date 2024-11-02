@@ -27,19 +27,17 @@ https://localhost:7282/api/Api/2
 https://localhost:7282/certificado/layout/1
 
 JSON [POST]
-<script>
-{
-  "nome": "Carlos Alberto",
-  "nacionalidade": "Malasio",
-  "estado": "XA",
-  "dataNascimento": "2000-01-10",
-  "documento": "2222-00",
-  "dataConclusao": "2024-08-11",
-  "curso": "JAVA Starter",
-  "cargaHoraria": 12,
-  "dataEmissao": "2024-11-02",
-  "nomeAssinatura": "Marcos Sem Minie",
-  "cargo": "Doutor",
-  "caminhoPDF": ""
+{  </br>
+  "nome": "Carlos Alberto",  </br>
+  "nacionalidade": "Malasio",  </br>
+  "estado": "XA",  </br>
+  "dataNascimento": "2000-01-10",  </br>
+  "documento": "2222-00",  </br>
+  "dataConclusao": "2024-08-11",  </br>
+  "curso": "JAVA Starter",  </br>
+  "cargaHoraria": 12,  </br>
+  "dataEmissao": "2024-11-02",  </br>
+  "nomeAssinatura": "Marcos Sem Minie",  </br>
+  "cargo": "Doutor",  </br>
+  "caminhoPDF": ""  </br>
 }
-</script>
