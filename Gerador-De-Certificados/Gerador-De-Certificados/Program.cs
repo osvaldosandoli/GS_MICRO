@@ -1,4 +1,4 @@
-using Gerador_De_Certificados.Controllers;
+using Gerador_De_Certificados.API.Services;
 using Gerador_De_Certificados.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;

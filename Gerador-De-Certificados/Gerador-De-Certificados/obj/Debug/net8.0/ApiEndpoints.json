@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Gerador_De_Certificados.Controllers.ApiController",
+    "ContainingType": "Gerador_De_Certificados.API.Controllers.ApiController",
     "Method": "GetCertificado",
     "RelativePath": "api/Api/{id}",
     "HttpMethod": "GET",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "ContainingType": "Gerador_De_Certificados.Controllers.ApiController",
+    "ContainingType": "Gerador_De_Certificados.API.Controllers.ApiController",
     "Method": "GetCertificado",
     "RelativePath": "api/Api/custom/getAll",
     "HttpMethod": "GET",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "Gerador_De_Certificados.Controllers.ApiController",
+    "ContainingType": "Gerador_De_Certificados.API.Controllers.ApiController",
     "Method": "CreateCertificado",
     "RelativePath": "api/Api/custom/post",
     "HttpMethod": "POST",
@@ -62,9 +62,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Gerador_De_Certificados.Controllers.WeatherForecastController",
+    "ContainingType": "Gerador_De_Certificados.Controllers.SwaggerController",
     "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "RelativePath": "Swagger",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -1,0 +1,49 @@
+﻿services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq  # Volume para persistir as mensagens
+
+  api:
+    build:
+      context: ./API
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"  # Mapeia a porta 80 do contêiner API para a 8080 do host
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=db;Database=db_Certificados;User Id=usr_teste;Password=teste123;TrustServerCertificate=True;
+
+  worker:
+    build:
+        context: ./Worker
+        dockerfile: Dockerfile
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=db;Database=db_Certificados;User Id=usr_teste;Password=teste123;TrustServerCertificate=True;
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Express
+      - MSSQL_DATABASE=db_Certificados
+      - MSSQL_USER=usr_teste
+      - MSSQL_PASSWORD=teste123
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql  # Corrige o nome do volume para sql_data
+
+volumes:
+  sql_data:  # Define o volume sql_data para o serviço db
+  rabbitmq_data:  # Define o volume para o serviço rabbitmq

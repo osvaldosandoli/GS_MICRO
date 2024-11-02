@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\controllers\\certificadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\controllers\\certificadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\worker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\worker\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\gerador-de-certificados.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\gerador-de-certificados.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\api\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\api\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\controllers\\certificadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\controllers\\certificadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\api\\services\\rabbitmqsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\api\\services\\rabbitmqsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\worker\\services\\workerpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\worker\\services\\workerpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\controllers\\swaggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\controllers\\swaggercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\models\\certificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\models\\certificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\controllers\\rabbitmqsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\controllers\\rabbitmqsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\worker\\workerpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\worker\\workerpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\gerador-de-certificados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|solutionrelative:gerador-de-certificados\\gerador-de-certificados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E5CF0EC-B2A9-4E73-9A42-E74C30CA8165}|Gerador-De-Certificados\\Gerador-De-Certificados.csproj|c:\\users\\osval\\source\\repos\\gerador-de-certificados\\gerador-de-certificados\\views\\certificado\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,109 +66,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Gerador-De-Certificados\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T06:08:39.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RabbitMqSender.cs",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\RabbitMqSender.cs",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Controllers\\RabbitMqSender.cs",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\RabbitMqSender.cs",
-              "RelativeToolTip": "Gerador-De-Certificados\\Controllers\\RabbitMqSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T05:58:10.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WorkerPDF.cs",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Worker\\WorkerPDF.cs",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Worker\\WorkerPDF.cs",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Worker\\WorkerPDF.cs",
-              "RelativeToolTip": "Gerador-De-Certificados\\Worker\\WorkerPDF.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:51:54.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Program.cs",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Program.cs",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Program.cs",
-              "RelativeToolTip": "Gerador-De-Certificados\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T01:00:01.424Z"
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Worker\\Dockerfile",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Worker\\Dockerfile",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Worker\\Dockerfile",
+              "RelativeToolTip": "Gerador-De-Certificados\\Worker\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-02T18:05:19.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApiController.cs",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\ApiController.cs",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Controllers\\ApiController.cs",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\ApiController.cs",
-              "RelativeToolTip": "Gerador-De-Certificados\\Controllers\\ApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T23:49:54.457Z",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\API\\Dockerfile",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\API\\Dockerfile",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\API\\Dockerfile",
+              "RelativeToolTip": "Gerador-De-Certificados\\API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-02T18:03:11.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gerador-De-Certificados.http",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Gerador-De-Certificados.http",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Gerador-De-Certificados.http",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Gerador-De-Certificados.http",
+              "RelativeToolTip": "Gerador-De-Certificados\\Gerador-De-Certificados.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-02T17:53:09.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\docker-compose.yml",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\docker-compose.yml",
+              "RelativeToolTip": "Gerador-De-Certificados\\docker-compose.yml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-02T17:52:15.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\appsettings.json",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\appsettings.json",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\appsettings.json",
+              "RelativeToolTip": "Gerador-De-Certificados\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T14:44:54.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CertificadoController.cs",
               "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\CertificadoController.cs",
               "RelativeDocumentMoniker": "Gerador-De-Certificados\\Controllers\\CertificadoController.cs",
               "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\CertificadoController.cs",
               "RelativeToolTip": "Gerador-De-Certificados\\Controllers\\CertificadoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T03:28:56.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Gerador-De-Certificados\\Controllers\\WeatherForecastController.cs",
+              "DocumentIndex": 8,
+              "Title": "RabbitMqSender.cs",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\API\\Services\\RabbitMqSender.cs",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\API\\Services\\RabbitMqSender.cs",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\API\\Services\\RabbitMqSender.cs",
+              "RelativeToolTip": "Gerador-De-Certificados\\API\\Services\\RabbitMqSender.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T05:58:10.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SwaggerController.cs",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\SwaggerController.cs",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Controllers\\SwaggerController.cs",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Controllers\\SwaggerController.cs",
+              "RelativeToolTip": "Gerador-De-Certificados\\Controllers\\SwaggerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T06:08:47.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Database\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Database\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Database\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Gerador-De-Certificados\\Database\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "WorkerPDF.cs",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Worker\\Services\\WorkerPDF.cs",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Worker\\Services\\WorkerPDF.cs",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Worker\\Services\\WorkerPDF.cs",
+              "RelativeToolTip": "Gerador-De-Certificados\\Worker\\Services\\WorkerPDF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T05:59:11.31Z"
+              "WhenOpened": "2024-11-02T02:51:54.911Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Program.cs",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Program.cs",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Program.cs",
+              "RelativeToolTip": "Gerador-De-Certificados\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T01:00:01.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Certificado.cs",
               "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Models\\Certificado.cs",
               "RelativeDocumentMoniker": "Gerador-De-Certificados\\Models\\Certificado.cs",
@@ -164,7 +210,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\API\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\API\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\API\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "Gerador-De-Certificados\\API\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T23:49:54.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Gerador-De-Certificados.csproj",
+              "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Gerador-De-Certificados.csproj",
+              "RelativeDocumentMoniker": "Gerador-De-Certificados\\Gerador-De-Certificados.csproj",
+              "ToolTip": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Gerador-De-Certificados.csproj",
+              "RelativeToolTip": "Gerador-De-Certificados\\Gerador-De-Certificados.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-02T14:19:26.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\osval\\source\\repos\\Gerador-De-Certificados\\Gerador-De-Certificados\\Views\\Certificado\\Layout.cshtml",
               "RelativeDocumentMoniker": "Gerador-De-Certificados\\Views\\Certificado\\Layout.cshtml",
