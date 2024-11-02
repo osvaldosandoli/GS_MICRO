@@ -1,0 +1,6 @@
+@Gerador_De_Certificados_HostAddress = http://localhost:5145
+
+GET {{Gerador_De_Certificados_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
