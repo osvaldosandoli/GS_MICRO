@@ -27,7 +27,7 @@ https://localhost:7282/api/Api/2
 https://localhost:7282/certificado/layout/1
 
 JSON [POST]
-
+<script>
 {
   "nome": "Carlos Alberto",
   "nacionalidade": "Malasio",
@@ -42,3 +42,4 @@ JSON [POST]
   "cargo": "Doutor",
   "caminhoPDF": ""
 }
+</script>
