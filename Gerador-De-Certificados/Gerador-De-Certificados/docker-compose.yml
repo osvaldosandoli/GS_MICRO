@@ -9,8 +9,8 @@
 
   api:
     build:
-      context: ./API
-      dockerfile: Dockerfile
+      context: /
+      dockerfile: API/Dockerfile
     ports:
       - "8080:80"  # Mapeia a porta 80 do contêiner API para a 8080 do host
     depends_on:
@@ -22,8 +22,8 @@
 
   worker:
     build:
-        context: ./Worker
-        dockerfile: Dockerfile
+        context: /
+        dockerfile: Worker/Dockerfile
     depends_on:
       - db
       - rabbitmq

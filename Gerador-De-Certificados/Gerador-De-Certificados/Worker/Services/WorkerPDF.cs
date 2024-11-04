@@ -173,6 +173,7 @@ public class WorkerPDF
 
         _context.Certificados.Update(certificado);
         await _context.SaveChangesAsync();
+        Console.WriteLine("update");
 
         Console.WriteLine("PDF gerado e salvo para o certificado ID: " + certificado.IdCertificado);
     }
