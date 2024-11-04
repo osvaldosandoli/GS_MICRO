@@ -1,6 +1,11 @@
 <h1> Projeto de Gerador de certificados desenvolvido em .NET com padrões MVC </h1>
 </br>
 
+<h2>Comandos para executar o docker: </h2>
+  - docker-compose build
+  - docker-compose up
+</br>
+
 <h2>Lista de dependencias que precisam ser criadas localmente:</h2>
   - dotnet add package DinkToPdf</br>
   - dotnet add package Microsoft.EntityFrameworkCore</br>
