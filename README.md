@@ -2,7 +2,7 @@
 </br>
 
 <h2>Comandos para executar o docker: </h2>
-  - docker-compose build
+  - docker-compose build</br>
   - docker-compose up
 </br>
 
