@@ -6,7 +6,7 @@
   - docker-compose up
 </br>
 
-<h2>Lista de dependencias que precisam ser criadas localmente:</h2>
+<h2>Lista de dependencias que precisam ser criadas:</h2>
   - dotnet add package DinkToPdf</br>
   - dotnet add package Microsoft.EntityFrameworkCore</br>
   - dotnet add package Microsoft.EntityFrameworkCore.Design</br>
